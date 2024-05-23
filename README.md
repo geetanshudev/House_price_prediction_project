@@ -7,8 +7,7 @@ This project implements a house price prediction model using machine learning an
   <h3>Stages to develop Project</h3>
   <ol>
     <li>To learn the requirement of build the project.</li>
- 
-     <li>To develop an Model trained with dataset.</li> 
+    <li>To develop an Model trained with dataset</li>
      <li> Integrated with Web Application.</li> 
      <li>To Deploy the model as a result.</li> 
   </ol>
