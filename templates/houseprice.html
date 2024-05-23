@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House price prediction</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='houseprice.css')}}">
+</head>
+<body>
+    <p id="head">House Price Prediction</p>
+    <table align="center" id="tabl">
+        <form action="" method="post">
+            <tr>
+                <td>Number of Bedrooms</td>
+                <td><input type="number" name="bedroom" min="1" max="8" id="input"></td>
+            </tr>
+            <tr>
+                <td>Number of Bathrooms</td>
+                <td><input type="number" name="bathroom" min="1" max="8" id="input"></td>
+            </tr>
+            <tr>
+                <td>Enter sqft of living space</td>
+                <td><input type="number" name="sqftliving" min="390" max="13540" id="input"></td>
+            </tr>
+            <tr>
+                <td>Enter sqft of lot</td>
+                <td><input type="number" name="sqftlot" min="520" max="1651359" id="input"></td>
+            </tr>
+            <tr>
+                <td>Enter Number of floor</td>
+                <td><input type="number" name="floor" min="1" max="3" id="input"></td>
+            </tr>
+            <tr>
+                <td>Enter condition rating</td>
+                <td><input type="number" name="rating" min="1" max="5" id="input"></td>
+            </tr>
+            <tr>
+                <td>Enter sqft above ground</td>
+                <td><input type="number" name="sqftground" min="390" max="9410" id="input"></td>
+            </tr>
+            <tr>
+                <td>Enter year built</td>
+                <td><input type="number"placeholder="YYYY" name="year" min="1900" max="2015" id="input"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Check" id="check"></td>
+                <td><input type="reset" value="Clear" id="clear"></td>
+            </tr>
+            <tr>
+                <td>Predicted Price</td>
+                <td>{{price}}</td>
+            </tr>
+            
+        </form>
+    </table>
+</body>
+</html>
