@@ -6,7 +6,7 @@ This project implements a house price prediction model using machine learning an
 <div>
   <h3>Stages to develop Project</h3>
   <ol>
-    <li>To learn the requirement of build the project.</li>![Screenshot 2024-05-23 075640](https://github.com/geetanshudev/House_price_prediction_project/assets/119582068/9f0d256b-d8e5-4042-b0be-4aedc19adb8d)
+    <li>To learn the requirement of build the project.</li>
  
      <li>To develop an Model trained with dataset.</li> 
      <li> Integrated with Web Application.</li> 
