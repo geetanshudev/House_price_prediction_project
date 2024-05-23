@@ -22,3 +22,6 @@ This project implements a house price prediction model using machine learning an
    </ol>
   </div>
 </div>
+<div>
+  For Some reason i haven't upload my model because it is 186mb!!
+</div>
